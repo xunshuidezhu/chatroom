@@ -19,6 +19,7 @@ Client::Client()
     //epoll fd
     epfd = 0;
 }
+//connect
 void Client::Connect()
 {
     cout << "Connect server: " << SERVER_IP << " : " << SERVER_PORT << endl;

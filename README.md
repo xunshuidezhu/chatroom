@@ -2,7 +2,7 @@
 ## the chatroom with the epoll   
   
   
-### 1.0版本聊天室，基于**epoll**    
+### 服务器采用 多线程，i/o复用实现并发，基于epoll开发的即时聊天服务器，客户端采用管道进行进程间通信，分别负责消息的read/write   
 
 ### **环境**  ：ubuntu16.04 + gcc + vscode + gdb   
 
